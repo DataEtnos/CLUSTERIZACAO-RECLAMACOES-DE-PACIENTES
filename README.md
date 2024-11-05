@@ -48,4 +48,20 @@ imagem - grafico de barra de cada cluster.
 
 
 
-É interessante ver como esta cada compardos a si mesmo , plotei um grafico scatterplot que nos ajuda a verificar a posição do centroíde no grafico a estrela negra 
+É interessante ver como esta cada comparados ao outro grupos, plotei um grafico scatterplot que nos ajuda a verificar a posição do centroíde no grafico a estrela negra é onde esta o centroide de cada cluster
+
+feito fiz apenas o ajuste dos cluster no dataframe para sabermos quais as operadoras e em quais cluster cada operadora ficou .
+
+é uma tabela bem grande de verificação, esse mesma tecnica pode ser aplicada analises de produtos , segmentação de clientes, pode ser usada como uma forma alternativa de definir a curva ABC nas cadeias logisticas e em uma outra infinidades de questões. 
+
+
+para verificar de forma um pouco mais rapida e batendo agora com o IGR  consigo verificar que o IGR  acima de 100 ficaram os cluster mais alto no caso o cluster 1 , o que valida a clusterização ja que quanto maior for o IGR mais reclamações aquelas unidades agrupadas receberam .
+
+imagem - grafico de barra.
+
+
+
+
+
+Etnos De Jesus Santos 
+Analista De Dados.
