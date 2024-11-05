@@ -35,12 +35,14 @@ imagem - boxplot - sem normalizar os dados
 Observando os dados noto que preciso fazer uma normalização do mesmo com min-max-scaller,isso faz com que os dados fiquem na escala de 0 - 1 ,  verifico como ficou a distribuição dos dados com um grafico de boxplot. 
 
 imagem -  boxplot
+
 ![bloxplot normalizado](https://github.com/user-attachments/assets/e943b229-d545-415e-aa95-dce71fb353f8)
 
 
 
 
 Com o grafico de  cotovelo verifico em quantos cluster vou dividir os dados do df, eu fico com a sugestão do modelo de 4 grupos , porem pode ser quebrado em mais grupos , mais isso traria um pouco mais de complexidade na hora de subjulgar os operadores .
+
 ![cotovelo](https://github.com/user-attachments/assets/2264d14c-1123-4039-bc42-3ba6c417528f)
 
 
@@ -70,6 +72,9 @@ feito fiz apenas o ajuste dos cluster no dataframe para sabermos quais as operad
 para verificar de forma um pouco mais rapida e batendo agora com o IGR  consigo verificar que o IGR  acima de 100 ficaram os cluster mais alto no caso o cluster 1 , o que valida a clusterização ja que quanto maior for o IGR mais reclamações aquelas unidades agrupadas receberam .
 
 imagem - grafico de barra.
+
+![grafico de barra por IGR](https://github.com/user-attachments/assets/30077b18-a026-4319-a4c5-ae9a29af6cac)
+
 
 
 
