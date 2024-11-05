@@ -28,6 +28,7 @@ imagem -  describe
 
 
 imagem - boxplot - sem normalizar os dados
+
 ![bloxplot -  sem normalizar](https://github.com/user-attachments/assets/10bb4e07-f531-4913-b7b5-ff5ba4b86eca)
 
 
@@ -61,6 +62,9 @@ imagem - grafico de barra de cada cluster.
 feito fiz apenas o ajuste dos cluster no dataframe para sabermos quais as operadoras e em quais cluster cada operadora ficou .
 
 é uma tabela bem grande de verificação, esse mesma tecnica pode ser aplicada analises de produtos , segmentação de clientes, pode ser usada como uma forma alternativa de definir a curva ABC nas cadeias logisticas e em uma outra infinidades de questões. 
+
+![tabela 30](https://github.com/user-attachments/assets/9dbfff9d-dcf3-46a1-b993-c34e760677b2)
+
 
 
 para verificar de forma um pouco mais rapida e batendo agora com o IGR  consigo verificar que o IGR  acima de 100 ficaram os cluster mais alto no caso o cluster 1 , o que valida a clusterização ja que quanto maior for o IGR mais reclamações aquelas unidades agrupadas receberam .
