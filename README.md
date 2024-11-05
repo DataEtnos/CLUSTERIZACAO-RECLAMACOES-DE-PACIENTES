@@ -1,4 +1,4 @@
-# Clusterização K-Means  -  Satisfação de pacientes
+# Clusterização K-Means  - Cluster de reclamações 
 
 
 O Objetivo deste projeto é clusterizar os operadores de saude de acordo com a quantidade de reclamações sobre o plano . 
@@ -23,20 +23,24 @@ verifiquei como estão  os percentil dos dados para ter uma ideia de como esta a
 
 imagem -  describe
 
+![describe](https://github.com/user-attachments/assets/73fa64b7-5d97-4b51-bd2a-d89a13d5687f)
 
 
 
 imagem - boxplot - sem normalizar os dados
+![bloxplot -  sem normalizar](https://github.com/user-attachments/assets/10bb4e07-f531-4913-b7b5-ff5ba4b86eca)
 
 
 Observando os dados noto que preciso fazer uma normalização do mesmo com min-max-scaller,isso faz com que os dados fiquem na escala de 0 - 1 ,  verifico como ficou a distribuição dos dados com um grafico de boxplot. 
 
 imagem -  boxplot
+![bloxplot normalizado](https://github.com/user-attachments/assets/e943b229-d545-415e-aa95-dce71fb353f8)
 
 
 
 
 Com o grafico de  cotovelo verifico em quantos cluster vou dividir os dados do df, eu fico com a sugestão do modelo de 4 grupos , porem pode ser quebrado em mais grupos , mais isso traria um pouco mais de complexidade na hora de subjulgar os operadores .
+![cotovelo](https://github.com/user-attachments/assets/2264d14c-1123-4039-bc42-3ba6c417528f)
 
 
 Em seguida, utilizo um gráfico de barras para visualizar os centróides de cada cluster, o que me permite ter uma ideia de como a clusterização está organizada. Com essa visualização, posso identificar os grupos que apresentam uma quantidade menor de reclamações (QTD_RECLAMACOES) e, para esses clusters, aplicar uma estratégia de fidelização, focando em manter a satisfação dos clientes. Por outro lado, nos clusters com alto volume de reclamações, priorizo o ajuste de problemas operacionais. Essa abordagem permite que eu verifique os valores dos centróides para cada variável, facilitando a análise detalhada sobre as causas das reclamações e ajudando a definir ações mais específicas para cada grupo
@@ -44,11 +48,15 @@ Em seguida, utilizo um gráfico de barras para visualizar os centróides de cada
 
 imagem - grafico de barra de cada cluster.
 
+![grafico de barra](https://github.com/user-attachments/assets/158a6ded-5ba7-442b-b54f-f225ea121858)
 
 
 
 
 É interessante ver como esta cada comparados ao outro grupos, plotei um grafico scatterplot que nos ajuda a verificar a posição do centroíde no grafico a estrela negra é onde esta o centroide de cada cluster
+
+![cluster de reclamações](https://github.com/user-attachments/assets/a490defa-ddc4-44c1-802e-14492cccfe60)
+
 
 feito fiz apenas o ajuste dos cluster no dataframe para sabermos quais as operadoras e em quais cluster cada operadora ficou .
 
