@@ -1,5 +1,8 @@
 # Clusterização K-Means  - Cluster de reclamações 
 
+![real](https://github.com/user-attachments/assets/19fbe551-bd42-47aa-8fa7-d78c5ef677fe)
+
+
 
 O Objetivo deste projeto é clusterizar os operadores de saude de acordo com a quantidade de reclamações sobre o plano . 
 isso pode incluir problemas com o atendimento , tratamento dos medicos no geral  e ate o que cobre o plano , 
